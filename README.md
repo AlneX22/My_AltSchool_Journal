@@ -1,6 +1,6 @@
 # 🧠 Altschool Cloud Engineering Journal 
 
-This repository contains my weekly learning logs from the second semester of the Altschool Cloud Engineering program.
+This repository contains my weekly learning logs starting from the second semester of the Altschool Cloud Engineering program.
 
 ## 📆 Monthly Folders
 
