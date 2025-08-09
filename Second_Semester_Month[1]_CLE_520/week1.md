@@ -26,7 +26,9 @@
   - **Public cloud** (e.g. AWS, Azure)
   - **Private cloud** (used internally within companies)
   - **Hybrid cloud** (mix of both)
-
+- I also got to now about the **craft of engineering** :
+  - **Systems Administration:** Where you maintain your servers. that is the systems that run your application in live environment AKA **Production**
+  - **SEC Ops:** This is where development meets security and operations. Basically, it is all the processes that it takes to move your application securely to the production.
 ---
 
 ## 😓 Challenges
