@@ -1,6 +1,6 @@
-# 🧠 Altschool Cloud Engineering Journal - Semester 2 (CLE 520)
+# 🧠 Altschool Cloud Engineering Journal 
 
-This repository contains my weekly learning logs for the second semester of the Altschool Cloud Engineering program (Course Code: CLE 520).
+This repository contains my weekly learning logs from the second semester of the Altschool Cloud Engineering program.
 
 ## 📆 Monthly Folders
 
@@ -19,3 +19,4 @@ Each folder contains weekly updates:
 ---
 
 > “I document to track my growth, reflect on challenges, and stay consistent on my cloud journey.”
+
