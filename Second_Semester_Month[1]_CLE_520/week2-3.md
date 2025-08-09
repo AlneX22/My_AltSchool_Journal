@@ -36,7 +36,7 @@
   - **Multiprocessing OS**
   - **Real Time OS**
   - **Distributed OS**
-  - ** Network OS & Mobile OS**
+  - **Network OS & Mobile OS**
 - Personal Computer Operating Systems were first developed in the late 1950s to manage tape storage.
 - An **OS** works as an intermediate between the user and computer. It helps the user to communicate with the computer without knowing how to speak the computer’s language.
 - The kernel is the central component of a computer operating systems. The only job performed by the kernel is to the manage the communication between the software and the hardware.
