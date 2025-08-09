@@ -29,7 +29,11 @@
 ---
 
 ## 💡 What I Learned
-- 
+- Started with the evolution of computing OS and the undirected champitons who did all the hardwork, talking about the likes of **Charles Babbage**(who designed the the first digital device to perform competions, **Lady Ada Lovelace** and the rest, from the ...
+  **First Generation:** 1945-1955 (Vaccum tubes, Plug boards)
+  **Second Generation:** 1995-1965 (Transistors, Batch systems)
+  **Third Generation:** 1965-1980 (Integrated circuits, Multiprogramming)
+  **Fourt Generation:** 1980-Present (large scale integration, Personal computers)
 
 ---
 
