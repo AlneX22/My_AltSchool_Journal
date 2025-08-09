@@ -29,7 +29,7 @@
 ---
 
 ## 💡 What I Learned
-- I now understand that An **OS** (Operating System) is a software which acts as an interface between the end user and computer hardware. 
+- I now understand that an **OS** (Operating System) is a software which acts as an interface between the end user and computer hardware. 
 - And there are different categories of Operating System in computer and other devices which are: 
   - **Batch Operating System**
   - **Multitasking/Time Sharing OS**
