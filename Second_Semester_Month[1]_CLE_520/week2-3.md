@@ -5,7 +5,9 @@
 ---
 
 ## ✅ Topics Covered
+
   **Week[2]**
+
 - Operating Systems
 - Linux
 - Setting Up Linux OS
@@ -14,11 +16,16 @@
 - Linux Commands(File Operation)
 - Linux Commands (Text Editors)
 - Linux Commands (Seeking Help)
+
+---
+
   **Week[3]**
+
 - Users & Groups
 - Managing Groups
 - File Permissions
 - SSH
+
 ---
 
 ## 💡 What I Learned
