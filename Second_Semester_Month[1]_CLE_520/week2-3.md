@@ -29,12 +29,20 @@
 ---
 
 ## 💡 What I Learned
-- Started with the evolution of computing OS from the ...
-  **First Generation:** 1945-1955 (Vaccum tubes, Plug boards)
-  **Second Generation:** 1995-1965 (Transistors, Batch systems)
-  **Third Generation:** 1965-1980 (Integrated circuits, Multiprogramming)
-  **Fourt Generation:** 1980-Present (large scale integration, Personal computers)
-
+- I now understand that An **OS** (Operating System) is a software which acts as an interface between the end user and computer hardware. 
+- And there are different categories of Operating System in computer and other devices which are: 
+  - **Batch Operating System**
+  - **Multitasking/Time Sharing OS**
+  - **Multiprocessing OS**
+  - **Real Time OS**
+  - **Distributed OS**
+  - ** Network OS & Mobile OS**
+- Personal Computer Operating Systems were first developed in the late 1950s to manage tape storage.
+- An **OS** works as an intermediate between the user and computer. It helps the user to communicate with the computer without knowing how to speak the computer’s language.
+- The kernel is the central component of a computer operating systems. The only job performed by the kernel is to the manage the communication between the software and the hardware.
+- Two most popular kernels are **Monolithic** and **MicroKernels**
+- Process, Device, File, I/O, Secondary-Storage, Memory management are various functions of an Operating System.
+- I also learned about the Unix/Unix-Like Operating Systems
 ---
 
 ## 😓 Challenges
@@ -48,4 +56,9 @@
 ---
 
 ## 🔗 Resources Used
+- https://www.guru99.com/operating-system-tutorial.html
+- https://www.tutorialspoint.com/operating_system/os_overview.htm
+- https://www.hpc.iastate.edu/guides/unix-introduction
+- https://en.wikipedia.org/wiki/Unix
+- https://www.fosslinux.com/44623/top-unix-based-operating-systems.htm
 - 
