@@ -12,8 +12,24 @@
 ---
 
 ## 💡 What I Learned
-- 
-
+- Process is a program currently being executed and there are two ways to run a process:
+  - **Foreground-fg**
+  - **Background-bg/&**
+- **Init** is the first process and all other processes originate from it.
+- There are different type of processes:
+  - Parent Process
+  - Child Process
+  - Orphaned Process
+  - Zombie Process
+  - Daemon Process
+- Process Command **ps**
+  - **ps aux:** List processes with extended information
+  - **ps -ef:** List processes from all users with extended information
+  - **ps euxf:** List processes from all users with extended tre info
+- Other Process-related Commands
+  - **top**
+  - **htop**
+  - **kill**
 ---
 
 ## 😓 Challenges
