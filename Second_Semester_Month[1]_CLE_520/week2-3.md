@@ -82,17 +82,59 @@
   - **man COMMAND:**  Gives you detailed information about a command
   - **COMMAND -h:** Gives a quicker reference of a command
   - **COMMAND -help:** Also gives a quicker reference of a command
-- 
+- Had a better understanding how the linux system works with users & groups and how to manage them with the following commands
+  - **cat /etc/passwd:** Contains the users stored in the linux machine 
+  - **adduser [username]:** Adds user
+  - **passwd [username]:** Set password for user
+  - **addgroup [groupname]:** Adds group
+  - **usermod -ag [groupname] [username]:** Adds user to group
+  - **groupmod -n [newname] [groupname]:** Rename a group
+  - **usermod -aG sudo [username]:** Add user to sudoers file
+  - **cat /etc/group:** Contains list of all groups
+  - **id username:** Confirms user IDs
+  - **adduser -s /user/bin/zsh username:** Create user with a specific shell
+  - **groupdel [groupname]:** Delete a group
+  - **userdel [username]:** Delete a user
+- Also learnt about **File permissions** after learning about users and groups because every file or directory belongs to a certain **user or group**. when you list file with **ls** it shows you the owners and permissions on a file.
+- First the **chown** command is used to set which user should own a file 
+  - **chown [user]:[group] [FILENAME]:** change ownership of a file
+  - **chmod [options] [FILENAME]:** change the file permission
+- There are different ways to set permissions. **Symbolic mode and Numeric mode**
+- With the **Symbolic method** you use the **target user, actions and permissions** to set the neccesary permissions you want.
+  - Actions are **+(add), -(remove), =(replace)**
+  - Permissions can be **r(Read), w(Write), x(Execute)**
+  - Target User **u(Owner), g(Group), o(Other users), a(All users)**
+- For the numeric method, you can calculate the permissions for a user using 
+  - **4(Read), 2(Write), 1(Execute), --o(No permission).** For Example **chmod 750 dirname** **(7 for the Owner, 5 for the Group, & 0 for Others)**
+  - **chmod [Numeric Notation] [FILENAME]:** Change file Permission wih numeri notation
+- Other commands for permission change 
+  - **setfacl -m u:[user]:[permission] FILENAME:** Assign different permissions to users.
+  - **chmod g=r [FILENAME]:** Give members of the group permissions to read the file
+  - **chmod a-x [FILENAME]:** Remove execute permissions for all users
+  - **chmod -R o-w [dirname]:** Recursivelly remove the write permission for other users
+  - **chmod og-rwx [FILENAME]:** Remove the read, write and execute permission for all users except file owners
+  - **chmod og= [FILENAME]:** Remove the read, write and execute permissions for all users except file owner
+- With **stat -c "%a" [FILENAME]** you can check the file permission in numeric notation.
+- Also learnt about Authentication specifically with **SSH (Secure Shell)** used for remotely acessing your server. it is an authentication methond that is used by using **private & public key pairs** and it ususally comes installed with alot of linux operating systems, but you can always install it by installing the application called **Open SSH**
+  - Private keys are always kept in the local machine
+  - Public keys can be shared with Sys Admis to add to co-operate servers or used in some form of authentication to give you access
+  - Public keys are stored in the **authorized_key** file on server
+  - You can generate **SSH Key ** using the command **SSH -keygen** and they are stored in the **/home/$user/.ssh.** 
 ---
 
 ## 😓 Challenges
-- 
+- I'm still trying to fully understand the symbolic mode of permissions and how to use the diffeent actions with it.
 
 ---
 
 ## 🧪 Practicals or Projects
-- 
-
+- Installed Ubuntu on my laptop(BareMetal) using the ISO file burned into a bootable flashdrive.
+- Logged into a remotely hosted linux machiche which i created with the cloud provider **AWS** also called an **EC2 instance** in AWS via SSH from my local linux machine.
+- Created 3 groups – and added the admin group to sudoers.
+- Created a user in each of the groups. 
+- Generated SSH Keys for the users
+- Created a file as a root user and gave each user different permissions to the file i created
+- studied other linux commands 
 ---
 
 ## 🔗 Resources Used
@@ -107,3 +149,7 @@
 - https://www.guru99.com/linux-commands-cheat-sheet.html
 - https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/
 - https://devhints.io/vim
+- https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command/
+- https://linuxize.com/post/how-to-delete-group-in-linux/
+- https://www.w3resource.com/linux-system-administration/groups.php
+- https://linuxize.com/post/chmod-command-in-linux/
