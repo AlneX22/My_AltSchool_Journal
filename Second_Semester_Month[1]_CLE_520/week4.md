@@ -46,3 +46,13 @@
 - https://man7.org/linux/man-pages/man1/ps.1.html
 - https://www.educba.com/linux-process-management/
 - https://www.guru99.com/managing-processes-in-linux.html
+- https://opensource.com/life/16/10/introduction-linux-filesystems
+- https://opensource.com/article/18/4/ext4-filesystem
+- https://en.wikipedia.org/wiki/File_system
+- https://www.javatpoint.com/linux-file-system
+- https://www.kernel.org/doc/html/latest/filesystems/vfs.html
+- https://opensource.com/article/19/3/virtual-filesystems-linux
+- https://www.redhat.com/sysadmin/etc-fstab
+- https://linuxize.com/post/how-to-mount-and-unmount-file-systems-in-linux/
+- https://www.tecmint.com/dmesg-commands/
+- https://www.golinuxcloud.com/tutorial-linux-memory-management-overview/
